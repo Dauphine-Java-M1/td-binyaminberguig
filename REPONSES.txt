@@ -1,0 +1,31 @@
+Binyamin Berguig
+
+mvn archetype:generate \-D archetypeArtifactId=maven-archetype-quickstart \-D groupId=fr.dauphine.ja.berguigbinyamin.td00  \-D artifactId=td00 \-D interactiveMode=false
+
+Exercice 1:
+4) Version de Maven 
+Apache Maven 3.6.0
+
+5) Le groupId est l'identifiant du groupe, à l'origine du projet. GroupId suit les mêmes règles de nommage que les packages Java (exemple : fr.masociete.monprojet), et on choisit généralement comme groupId le nom du top package du projet.
+
+L'artifactId est l'identifiant du projet au sein de ce groupe.
+
+L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar). 
+
+6) Repertoire target contient le dossier classes et maven-status
+
+8) class path est un parametre passe a une achine virtuelle java qui definit le chemin d'acces au repertoire ou se trouvent les classes et les packages java afin qu'elle les execute
+
+Exercice 2:
+1) erreur :  aucun attribut manifest principal dans target/td00-1.0-SNAPSHOT.jar
+
+Exercie 3:
+3) cela transforme sysout en System.out.println();
+
+4) cela donne la possibilite de choisir entre la fonction toStr ou toString
+
+5) creer la fonction main
+
+6) permet de creer les getter et les setters toto
+
+7) selectionne toute les occurences.
