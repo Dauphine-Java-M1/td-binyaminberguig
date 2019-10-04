@@ -47,7 +47,7 @@ public class PrimeCollection
     {
 		ArrayList<Integer> numbers = new ArrayList<Integer>();
 		PrimeCollection a = new PrimeCollection(numbers);
-		a.initRandom(100,1000);
+		a.initRandom(100,2000);
 		System.out.println(a.numbers);
         System.out.println( "Bonjour!" );
         System.out.println(a.isPrime(4));
