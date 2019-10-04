@@ -1,5 +1,9 @@
 Binyamin Berguig
 
+
+
+Bonjour
+
 mvn archetype:generate \-D archetypeArtifactId=maven-archetype-quickstart \-D groupId=fr.dauphine.ja.berguigbinyamin.td00  \-D artifactId=td00 \-D interactiveMode=false
 
 Exercice 1:
@@ -29,3 +33,4 @@ Exercie 3:
 6) permet de creer les getter et les setters toto
 
 7) selectionne toute les occurences.
+
