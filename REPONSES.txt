@@ -1,7 +1,6 @@
 Binyamin Berguig
 
-mvn archetype:generate \-D archetypeArtifactId=maven-archetype-quickstart \-D groupId=fr.dauphine.ja.berguigbinyamin.td00  \-D artifactId=td00 \-D interactiveMode=false
-
+TD1
 Exercice 1:
 4) Version de Maven 
 Apache Maven 3.6.0
@@ -14,7 +13,7 @@ L'artifactId est utilisé par défaut pour construire le nom de l'artefact final
 
 6) Repertoire target contient le dossier classes et maven-status
 
-8) class path est un parametre passe a une achine virtuelle java qui definit le chemin d'acces au repertoire ou se trouvent les classes et les packages java afin qu'elle les execute
+8) class path est un parametre passe a une machine virtuelle java qui definit le chemin d'acces au repertoire ou se trouvent les classes et les packages java afin qu'elle les execute
 
 Exercice 2:
 1) erreur :  aucun attribut manifest principal dans target/td00-1.0-SNAPSHOT.jar
@@ -30,5 +29,23 @@ Exercie 3:
 
 7) selectionne toute les occurences.
 
+TD2 
+Exercice 1:
+2) les fichiers ayant recu des changements dignes d’intérêt par rapport à la version précédentes sont : pom.xml et PrimeCollection.java
 
-chocolat
+5) on observe les modifications de code sur le terminal 
+
+Exercice 2:
+3) Gitk represente le fait que les deux dépots sont synchronisés par un message: "master-remote/origine/master"
+
+5) le terminal affice le message : 	To https://github.com/Dauphine-Java-M1/td-binyaminberguig.git
+					 ! [rejected]        master -> master (fetch first)
+					error: impossible de pousser des références vers 'https://github.com/Dauphine-Java-M1/td-binyaminberguig.git'
+					astuce: Les mises à jour ont été rejetées car la branche distante contient du travail que
+					astuce: vous n'avez pas en local. Ceci est généralement causé par un autre dépôt poussé
+					astuce: vers la même référence. Vous pourriez intégrer d'abord les changements distants
+					astuce: (par exemple 'git pull ...') avant de pousser à nouveau.
+					astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+6) le fichier REPONSES.txt contient seulement les modification apportées au fichier cloné
+
+7) En apportant des modifications sur la même ligne du fichier REPONSES.txt cela aurait créer un conflit et git nous aurait proposer de choisir entre les deux modifications apportées.
