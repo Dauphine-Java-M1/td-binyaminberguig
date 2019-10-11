@@ -1,6 +1,6 @@
-Binyamin Berguig
+Binyamin Berguig (en duo avec Yohan Aidan)
 
-TD1
+TD00------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Exercice 1:
 4) Version de Maven 
 Apache Maven 3.6.0
@@ -29,7 +29,9 @@ Exercie 3:
 
 7) selectionne toute les occurences.
 
-TD2 
+
+TD00 Bis---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Exercice 1:
 2) les fichiers ayant recu des changements dignes d’intérêt par rapport à la version précédentes sont : pom.xml et PrimeCollection.java
 
@@ -55,3 +57,49 @@ Exercice 3:
 2) On observe une fenêtre JUnit qui s'ouvres et qui affiche un test valide 
 En remplacant true par false, le test n'est plus valide
 La methode AssertTrue sert a compare un objet avec une valeur prédéfinit.
+
+
+
+TD01---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Exercice 1:
+1) cela fonctionne car java instancie un constructeur par defaut dés la création d'une classe
+
+2) Cela ne fonctionne pas car les variables x et y sont en private et donc non accessible dans une autre classe.
+Pour y remedier il faudrait mettre les attributs en public.
+
+3) Il faut déclarer ses variables en private de façon à ce que le programme qui instancie la classe ne puisse ni voir ni modifier ces variables pour des raisons de sécurité. 
+
+4) Un accesseur permet d'acceder a un attribut private de la classe.
+Dans notre cas, on doit le faire car on veut que la classe TestPoint accede au attribut x et y.
+
+5) Le probleme est que l'on a redefinit le constructeur pour qu'il prenne des paramétres.
+
+6) Cela ne fonctionne toujours pas.
+
+7) il faut creer une variable static et l'instancier dans le constructeur afin qu'il soit incrementé a chaque creation de Point.
+
+8) Le compilateur sait quel constructeur appeler en fonction des parametres que on lui fournit.
+
+Exercice 2:
+1) Cela affiche true et false. le comparateur == prend en compte directement le referencement et non la valeur. true car p1 et p2 renvoi au meme objet tandis que p3 en est un troisiéme.
+
+2) l'index de p2 existe alors que p2 n'a pas été ajouté.
+resolution: sachant que indexOf utilise equals qui utilise == donc il faut changer de fonction et utiliser isSameAs().
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
