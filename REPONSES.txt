@@ -86,10 +86,12 @@ Exercice 2:
 2) l'index de p2 existe alors que p2 n'a pas été ajouté.
 resolution: sachant que indexOf utilise equals qui utilise == donc il faut changer de fonction et utiliser isSameAs().
 
-
+Exercice 3 :
+3) si l'on depasse la capacité fixée on obtient l'erreur suivante :"Index 4 out of bounds for length 4" il faudrait modifier la capacite en meme temps que l'on ajoute un point en redeclarant le tableau
   
+5) si l'on met null en parametre de contains on obtient une erreur de meme lors de l'ajout 
 
-
+6) pointCapacity n'a plus de raison d'être car une linkdlist n'a pas de limite, nbPoints devient la size() de notre collection et contains existe deja en tant que methode de LinkdList
 
 
 
