@@ -1,27 +1,48 @@
 package fr.dauphine.ja.berguigbinyamin.shapes;
 
+import java.util.LinkedList;
 
 public class LigneBrisee {
-	Point[] ligne;
-	int a[] = new int[3];
-	int b;
+	
+	/* 
+	static int compt = 0;
+	Point[] lesPoints;
 	
 	public LigneBrisee(int max) {
-		this.ligne = new Point[max];
+		this.lesPoints = new Point[max];
+		
+	}
+	
+	public void pointCapacity() {
+		System.out.println(this.lesPoints.length);
+		
+	}
+	
+	public void nbPoints() {
+		System.out.println(compt);
+		
+	}
+	public boolean contains(Point p) {
+		for (Point p2: lesPoints) {
+			if(p2.x==p.x & p2.y==p.y) {
+				return true;
+			}
+		}
+		return false;
 		
 	}
 	
 	public void add(Point p) {
-		a[1]= 2;
-		a[0]= 1;
-		
-		for(int i = 0; i<a.length; i++) {
-			System.out.println(a[i]);
-		}
-		
-		//Point[] ligne = ligne.push(p);
-
+		lesPoints[compt] = p;
+		compt++;
 	}
+	*/
 	
+	LinkedList<Point> lesPoints;
+	
+	public LigneBrisee() {
+		this.lesPoints = new LinkedList<Point>();
+		
+	}
 	
 }
