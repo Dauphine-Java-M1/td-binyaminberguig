@@ -93,6 +93,12 @@ Exercice 3 :
 
 6) pointCapacity n'a plus de raison d'être car une linkdlist n'a pas de limite, nbPoints devient la size() de notre collection et contains existe deja en tant que methode de LinkdList
 
+Exercice 4 :
+1) on peut soit renvoyer le nouveau point soit juste modifier les coordonées de ce dernier.
+
+5) le probleme est que les 2 cercles sont translatés car ils utilisent le meme point, la solution est de retourne un nouveau point lors de la translation d'un point.
+
+6) cela ne translate pas le cercle car on appelle la fonction translate de la classe point; pour modifier le cercle il faut utiliser directement la fonction translate de Circle.
 
 
 
