@@ -17,6 +17,14 @@ public class Point {
 		this.y=pt.y;
 	}
 	
+	public int  getX() {
+		return this.x;
+	};
+	
+	public int  getY() {
+		return this.y;
+	};
+	
 	public boolean isSameAs(Point pt) {
 		return this.x==pt.x && this.y==pt.y;
 	}
@@ -74,9 +82,15 @@ public class Point {
     	c2.translate(1,1);
     	System.out.println(c+" ////"+c2);
     	
-    	Circle c3=new Circle(new Point(1,2), 1);
+    	Circle c3=new Circle(new Point(1,2), 70);
     	c3.translate(1,1);
     	System.out.println(c3);
+    	
+    	Point p8=new Point(3,50);
+	   	System.out.println(c3);
+	   	System.out.println(c3.contains(p8));
+	   	Ring ring= new Ring (new Point(1,5),5,2);
+	   	System.out.println(ring);
     }
 	
 }
